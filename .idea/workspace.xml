@@ -7,10 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="159d5dbf-4091-4740-a71d-02f75f6a5ccb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/doc/project.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/doc/project.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,8 +74,8 @@
         <entry file="file://$PROJECT_DIR$/admin.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="145">
-                <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+              <first_editor relative-caret-position="95">
+                <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -233,7 +230,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="387" />
     <option name="y" value="27" />
     <option name="width" value="1325" />
@@ -595,12 +592,12 @@
       <workItem from="1584597786724" duration="12090000" />
       <workItem from="1584671293871" duration="19470000" />
       <workItem from="1584697831293" duration="1663000" />
-      <workItem from="1584765447024" duration="8842000" />
+      <workItem from="1584765447024" duration="9109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53343000" />
+    <option name="totallyTimeSpent" value="53610000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -612,8 +609,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="530" y="22" width="1060" height="726" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
@@ -635,9 +631,9 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4779661" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4974533" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.41209564" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.3272472" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.27844313" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.18699732" />
       <window_info id="Web" order="6" sideWeight="0.5015674" side_tool="true" weight="0.27815014" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32711864" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -1017,8 +1013,8 @@
     <entry file="file://$PROJECT_DIR$/admin.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="145">
-            <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <first_editor relative-caret-position="95">
+            <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
