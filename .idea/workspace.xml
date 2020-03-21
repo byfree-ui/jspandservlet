@@ -6,7 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="159d5dbf-4091-4740-a71d-02f75f6a5ccb" name="Default" comment="" />
+    <list default="true" id="159d5dbf-4091-4740-a71d-02f75f6a5ccb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/doc/project.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/doc/project.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,14 +61,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseServlet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/xiaoxin/servlet/BaseServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+            <state relative-caret-position="415">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="145">
+                <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -100,15 +119,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -158,13 +168,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/fist.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/login.xhtml" />
         <option value="$PROJECT_DIR$/web/doc/project.txt" />
-        <option value="$PROJECT_DIR$/web/doc/project.md" />
         <option value="$PROJECT_DIR$/src/us/getUserInforService.java" />
         <option value="$PROJECT_DIR$/src/com/xiaoxin/util/DBUtil.java" />
         <option value="$PROJECT_DIR$/src/com/xiaoxin/pojo/User.java" />
@@ -188,6 +200,8 @@
         <option value="$PROJECT_DIR$/web/reg.jsp" />
         <option value="$PROJECT_DIR$/src/com/xiaoxin/servlet/DataServlet.java" />
         <option value="$PROJECT_DIR$/src/com/xiaoxin/servlet/BaseServlet.java" />
+        <option value="$PROJECT_DIR$/web/doc/project.md" />
+        <option value="$PROJECT_DIR$/admin.md" />
       </list>
     </option>
   </component>
@@ -220,11 +234,12 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="602" />
+    <option name="x" value="387" />
     <option name="y" value="27" />
     <option name="width" value="1325" />
     <option name="height" value="908" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -311,6 +326,12 @@
               <item name="jspend" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jspend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jspend" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jspend" type="b2602c69:ProjectViewProjectNode" />
@@ -574,12 +595,12 @@
       <workItem from="1584597786724" duration="12090000" />
       <workItem from="1584671293871" duration="19470000" />
       <workItem from="1584697831293" duration="1663000" />
-      <workItem from="1584765447024" duration="8194000" />
+      <workItem from="1584765447024" duration="8842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52695000" />
+    <option name="totallyTimeSpent" value="53343000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -591,7 +612,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="329" y="21" width="1060" height="726" extended-state="0" />
+    <frame x="530" y="22" width="1060" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -613,10 +634,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4779661" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286517" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4974533" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.3272472" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984326" weight="0.27844313" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984326" visible="true" weight="0.27844313" />
       <window_info id="Web" order="6" sideWeight="0.5015674" side_tool="true" weight="0.27815014" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32711864" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -673,13 +694,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yjb/fist/fist.java" />
     <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -767,19 +781,6 @@
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/login.xhtml" />
     <entry file="file://$PROJECT_DIR$/web/mian.js" />
     <entry file="file://$PROJECT_DIR$/src/com/yjb/fist/fist.java" />
-    <entry file="file://$PROJECT_DIR$/web/doc/project.md">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/us/getUserInforService.java" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e250bc68-4a8c-4c6f-a17e-fdc1d588c377/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
@@ -992,11 +993,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xiaoxin/servlet/BaseServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        <state relative-caret-position="415">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/doc/project.md">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="50">
+            <caret line="26" column="7" lean-forward="true" selection-end-line="27" selection-end-column="6" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="145">
+            <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
