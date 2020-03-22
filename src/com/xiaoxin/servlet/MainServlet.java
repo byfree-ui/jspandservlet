@@ -12,6 +12,6 @@ public class MainServlet extends HttpServlet {
         // 设置编码
         req.setCharacterEncoding("utf-8");
         resp.setContentType("text/html;charset=utf-8");
-        resp.sendRedirect("/login.jsp");
+        resp.sendRedirect("login.jsp");
     }
 }

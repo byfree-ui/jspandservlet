@@ -34,12 +34,12 @@ public class DataServlet extends BaseServlet {
             // 将用户信息写入session
             hs.setAttribute("user", u);
             // 重定向到main.jsp
-            resp.sendRedirect("/main.jsp");
+            resp.sendRedirect("main.jsp");
         } else {
             // 将登陆失败的标记添加到session当中
             hs.setAttribute("flag", "loginFalse");
             // 重定向到login.jsp
-            resp.sendRedirect("/login.jsp");
+            resp.sendRedirect("login.jsp");
         }
     }
     // 退出处理
@@ -48,7 +48,7 @@ public class DataServlet extends BaseServlet {
         hs.invalidate();
         // 响应处理结果
         // 重定向
-        resp.sendRedirect("/login.jsp");
+        resp.sendRedirect("login.jsp");
     }
     // 注册处理
     public  void userReg (HttpServletRequest req, HttpServletResponse resp) throws IOException {
