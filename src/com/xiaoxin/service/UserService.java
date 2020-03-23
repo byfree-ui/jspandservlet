@@ -2,6 +2,8 @@ package com.xiaoxin.service;
 
 import com.xiaoxin.pojo.User;
 
+import java.util.List;
+
 public interface UserService {
     /**
      * 查询用户
@@ -17,4 +19,10 @@ public interface UserService {
      * @return
      */
     boolean insertUser(User u);
+
+    /**
+     * 获取所有的用户信息
+     * @return
+     */
+    List<User> selUserInfoService();
 }

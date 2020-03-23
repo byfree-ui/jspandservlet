@@ -5,6 +5,8 @@ import com.xiaoxin.dao.impl.UserDaoImpl;
 import com.xiaoxin.pojo.User;
 import com.xiaoxin.service.UserService;
 
+import java.util.List;
+
 public class UserServiceImpl implements UserService {
 
     // 创建dao层对象
@@ -31,4 +33,11 @@ public class UserServiceImpl implements UserService {
     public boolean insertUser(User u) {
         return ud.insUser(u);
     }
+
+    @Override
+    public List<User> selUserInfoService() {
+        return ud.selUserInfoDao();
+    }
+
+
 }

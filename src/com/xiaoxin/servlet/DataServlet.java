@@ -6,18 +6,34 @@ import com.xiaoxin.service.UserService;
 import com.xiaoxin.service.impl.UserServiceImpl;
 
 import javax.servlet.ServletException;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.lang.reflect.Method;
+import java.util.List;
 
 /**
  * 一个servlet统治全部的业务
  * @author 闫
  */
 public class DataServlet extends BaseServlet {
+    // 查询信息
+    public  void selUserInfo (HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
+        // 获取请求信息
+        // 处理请求信息
+        // 创建业务层对象
+        UserService us = new UserServiceImpl();
+        // 调用业务层方法处理请求
+        List<User> lu = us.selUserInfoService();
+        // 响应处理结果
+        // 将结果存储到req的作用域中
+        req.setAttribute("lu", lu);
+        // 请求转发
+        req.getRequestDispatcher("/user/userList.jsp").forward(req, resp);
+        return;
+    }
+
+
     // 登陆处理
     public  void userLogin (HttpServletRequest req, HttpServletResponse resp) throws IOException {
         // 获取请求信息

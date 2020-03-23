@@ -31,7 +31,7 @@
         <%
             if (user != null) {
         %>
-                当前用户 [<%=((User)session.getAttribute("user")).getUname() %>]
+                当前用户 [${sessionScope.user.getUname()}]
         <%
             } else {
         %>
@@ -51,7 +51,7 @@
     <div class="leftnav-title"><strong><span class="icon-list"></span>菜单列表</strong></div>
     <h2><span class="icon-user"></span>基本设置</h2>
     <ul style="display:block">
-        <li><a href="info.html" target="right"><span class="icon-caret-right"></span>网站设置</a></li>
+        <li><a href="data?method=selUserInfo" target="right"><span class="icon-caret-right"></span>查询用户信息</a></li>
         <li><a href="pass.html" target="right"><span class="icon-caret-right"></span>修改密码</a></li>
         <li><a href="page.html" target="right"><span class="icon-caret-right"></span>单页管理</a></li>
         <li><a href="adv.html" target="right"><span class="icon-caret-right"></span>首页轮播</a></li>
